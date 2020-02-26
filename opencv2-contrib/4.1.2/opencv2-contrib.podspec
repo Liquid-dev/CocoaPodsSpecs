@@ -25,7 +25,6 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.documentation_url = 'https://docs.opencv.org/master/'
-  spec.authors          = 'https://github.com/opencv/opencv/graphs/contributors'
   spec.homepage     = "https://opencv.org"
   spec.description      = <<-DESC
   OpenCV: open source computer vision library
@@ -104,10 +103,7 @@ the use of this software, even if advised of the possibility of such damage.
   #  profile URL.
   #
 
-  # spec.author             = { "Naoto Ito" => "naotoufu@outlook.com" }
-  # Or just: spec.author    = "Naoto Ito"
-  # spec.authors            = { "Naoto Ito" => "naotoufu@outlook.com" }
-  # spec.social_media_url   = "https://twitter.com/Naoto Ito"
+  spec.authors          = 'https://github.com/opencv/opencv/graphs/contributors'
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -131,7 +127,7 @@ the use of this software, even if advised of the possibility of such damage.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => 'https://github.com/naotoufu/OpenCV2-contrib/releases/download/4.1.2/opencv2.framework.zip', :flatten => true } 
+  spec.source       = { :http => 'https://github.com/Liquid-dev/opencv2-contrib/releases/download/4.1.2/opencv2.framework.zip', :flatten => true } 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
