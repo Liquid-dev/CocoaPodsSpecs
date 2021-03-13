@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ItrustEkycLibrary"
-  s.version          = "2.0.0.0"
+  s.version          = "1.2.0"
   s.summary       = "LIQUID eKYC Applicant SDK for iOS"
   s.description    = <<-DESC
 LIQUID eKYC Applicant SDK for iOS.
